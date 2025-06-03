@@ -3,40 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sweet Treats Bakery</title>
+    <title>FIFA Club World Cup 2025</title>
     <style>
         body {
-            font-family: "Georgia", serif;
+            font-family: 'Arial', sans-serif; /* More modern font */
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background-color: #e0f7fa;
+            background-color: #e8f5e9; /* Light green background */
             margin: 0;
+            color: #333;
         }
         .container {
             text-align: center;
-            background-color: #ffe4e1;
-            padding: 50px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            background-color: #ffffff; /* White container background */
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Updated shadow */
+            max-width: 800px; /* Limit container width */
+            width: 90%;
         }
         h1 {
-            color: #d81b60;
-            font-size: 3.5em;
+            color: #1b5e20; /* Dark green for heading */
+            font-size: 2.8em; /* Adjusted font size */
             margin-bottom: 15px;
         }
+        h2 {
+            color: #388e3c; /* Medium green for subheadings */
+            font-size: 1.8em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
         p {
-            color: #424242;
-            font-size: 1.3em;
+            color: #555; /* Darker grey for readability */
+            font-size: 1.1em;
             line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .tournament-details ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+        .tournament-details li {
+            background-color: #c8e6c9; /* Lighter green for list items */
+            margin: 8px 0;
+            padding: 12px;
+            border-left: 5px solid #1b5e20; /* Accent color border */
+            border-radius: 4px;
+            color: #1b5e20;
+            font-size: 1.1em;
+            text-align: left; /* Align text to the left */
+        }
+        .rounds-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            display: flex; /* Use flexbox for layout */
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
+            justify-content: center; /* Center the items */
+            gap: 15px; /* Space between items */
+        }
+        .round-item {
+            background-color: #4caf50; /* Green background for rounds */
+            color: white; /* White text */
+            padding: 15px 20px;
+            border-radius: 25px; /* Pill shape */
+            font-size: 1.2em;
+            font-weight: bold;
+            text-transform: uppercase; /* Uppercase text */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            min-width: 120px; /* Minimum width for round items */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Sweet Treats!</h1>
-        <p>Discover delicious pastries, cakes, and bread made with love.</p>
+        <h1>Welcome to the FIFA Club World Cup 2025!</h1>
+        <p>Get ready for an exciting international club football tournament.</p>
+
+        <div class="tournament-details">
+            <h2>Tournament Details</h2>
+            <ul>
+                <li>Dates: June 14 - July 13, 2025</li>
+                <li>Host Country: USA</li>
+                <li>Teams: 32</li>
+                <li>Matches: 63</li>
+            </ul>
+
+            <h2>Tournament Format</h2>
+            <p>The tournament consists of a Group Stage followed by the thrilling knockout rounds:</p>
+            
+            <ul class="rounds-list">
+                <li class="round-item">Group Stage</li>
+                <li class="round-item">Round of 16</li>
+                <li class="round-item">Quarterfinals</li>
+                <li class="round-item">Semifinals</li>
+                <li class="round-item">Final</li>
+            </ul>
+            
+            <!-- Specific match schedules will be added here as they are announced -->
+        </div>
     </div>
 </body>
 </html>
